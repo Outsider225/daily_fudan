@@ -219,7 +219,7 @@ class Zlapp(Fudan):
             #captcha_text = 'abcd'
             #added xwszxqsffbhjf 3 所居住小区、楼栋是否因出现新冠感染者或密接，处于封闭管理、健康医学观察状态（不包括网格化核酸筛查的社区临时封控）？ 3 否，住在校内
             self.last_info.update({
-                'sfzx': 1,
+                'sfzx': 0,
                 #'xwszxqsffbhjf': 3,
                 'code': captcha_text
             })
